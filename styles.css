@@ -9,6 +9,8 @@ body {
     background-color: #ffffff;
 }
 
+/*Pour la page d'accueil*/
+
 .homepage {
     background-color: #f2ab01;
     width: 375px;
@@ -30,7 +32,7 @@ body {
     height: auto;
 }
 
-h1 {
+.header-text {
     color: #ffffff;
     text-align: center;
     font-weight: bold;
@@ -38,7 +40,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-p {
+.container-text {
     color: #333333;
     text-align: justify;
     margin-bottom: 30px;
@@ -86,4 +88,61 @@ button {
 
 button:hover {
     transform: scale(1.1);
+}
+
+/*Pour la page du cv*/
+
+.cv-container {
+    width: 21cm;
+    height: 29.7cm;
+    background-color: #FFFFFF;
+    display: flex;
+    margin: 8px;
+    border: 3px solid gray;
+}
+
+.left-column {
+    width: 310px;
+    position: relative;
+    background-color: #333333;
+}
+
+.profile-photo {
+    position: absolute;
+    width: 89.25px;
+    height: 111.54px;
+    left: 58px;
+    top: 131.1px;
+    border: 4px solid #CECECE;
+    border-radius: 50px 50px 50px 0px;
+}
+
+.triangle-deco-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    border-top: 155px solid #f2ab01;
+    border-left: 155px solid #f2ab01;
+    border-right: 155px solid transparent;
+    border-bottom: 155px solid transparent;
+}
+
+.items-aligns {
+    position: absolute;
+    left: 58px;
+    top: 290px;
+}
+
+.long-line-left {
+    width: 3px;
+    height: 850px;
+    bottom: 0;
+    background-color: #505050;
+    position: absolute;
+    left: 35px;
+}
+
+.right-column {
+    flex: 1;
 }
