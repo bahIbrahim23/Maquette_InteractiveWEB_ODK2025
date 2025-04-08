@@ -143,6 +143,14 @@ button:hover {
     left: 35px;
 }
 
+
+.title-underline {
+    width: 5px;
+    height: 16px;
+    background-color: #f1aa01;
+
+}
+
 .right-column {
     flex: 1;
 }
