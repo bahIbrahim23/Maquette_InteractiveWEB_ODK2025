@@ -132,6 +132,7 @@ button:hover {
     position: absolute;
     left: 58px;
     top: 290px;
+    /* margin-right: 1px; */
 }
 
 .long-line-left {
@@ -145,12 +146,297 @@ button:hover {
 
 
 .title-underline {
-    width: 5px;
-    height: 16px;
+    position: absolute;
+    width: 10px;
+    height: 35px;
     background-color: #f1aa01;
-
+    border-radius: 50px;
+    left: -26.5px;
 }
 
-.right-column {
+.icon-circle-big {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon-circle-big i {
+    font-size: 15px;
+}
+
+
+.element-align-1 {
+    display: flex;
+    align-items: center;
+}
+
+.element-align-1 strong {
+    color: #FFFFFF;
+}
+
+.contact {
+    position: absolute;
+    top: 12px;
+}
+
+
+.element-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #f1aa01;
+    position: absolute;
+    left: -26.5px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.icon-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.icon-circle i {
+    font-size: 10px;
+}
+
+
+#sub-element-align-1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 42px;
+}
+
+#sub-element-align-2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 69px;
+}
+
+#sub-element-align-3 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 96px;
+}
+
+#sub-element-align-4 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 122px;
+}
+
+.color-list-puce {
+    color: #959595;
+    font-size: 15px;
+}
+
+.color-list-puce a{
+    color: #959595;
+}
+
+.dotted-line {
+    border-top: 2px dashed #848484;
+    width: 208px;
+    position: absolute;
+    top: 154px;
+    left: 2px;
+}
+
+.formations {
+    position: absolute;
+    top: 178px;
+}
+
+#bottom-1 {
+    position: absolute;
+    top: 47px;
+}
+
+#formation-1 {
+    position: absolute;
+    top: 42px;
+}
+
+#bottom-2 {
+    position: absolute;
+    top: 148px;
+}
+
+#formation-2 {
+    position: absolute;
+    top: 145px;
+}
+
+#bottom-3 {
+    position: absolute;
+    top: 217px;
+}
+
+#formation-3 {
+    position: absolute;
+    top: 214px;
+}
+
+#bottom-4 {
+    position: absolute;
+    top: 284px;
+}
+
+#formation-4 {
+    position: absolute;
+    top: 281px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.formation-name {
+    font-size: 14px;
+    color: #959595;
+}
+
+.duree {
+    font-size: 12px;
+    color: #959595;
+}
+
+#dotted-line-formation {
+    border-top: 2px dashed #848484;
+    position: absolute;
+    top: 372px;
+    width: 208px;
+}
+
+.langues {
+    position: absolute;
+    top: 561px;
+}
+
+#bottom-5 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+}
+
+#bottom-6 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 69px;
+}
+
+.langues span strong {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.langues span small {
+    font-size: 14px;
+    color: #959595;
+}
+
+#dotted-line-language {
+    border-top: 2px dashed #848484;
+    position: absolute;
+    width: 208px;
+    top: 104px;
+}
+
+.loisirs {
+    position: absolute;
+    top: 682px;
+}
+
+#sub-element-align-5 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 47px;
+}
+
+#sub-element-align-6 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 82px;
+}
+
+
+main {
     flex: 1;
+    position: relative;
+}
+
+
+.right-contanier {
+    flex: 1;
+    margin-left: 52px;
+    margin-right: 25px;
+    margin-top: 70px;
+}
+
+
+#profile-rectangle {
+    width: 100%;
+    height: 100px;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 78px;
+}
+
+header {
+    position: absolute;
+    top: 96px;
+}
+
+.long-lign-right {
+    width: 3px;
+    height: 100%;
+    bottom: 0;
+    background-color: #5c5c5c;
+    position: absolute;
+    left: 30px;
+}
+
+.title-underline-profile {
+    position: absolute;
+    width: 14px;
+    height: 72px;
+    border-radius: 50px;
+    background-color: #f2ab01;
+    left: -28px;
+}
+
+header h1 {
+    color: #333333;
+}
+
+#highlight {
+    color: #f2ab03;
+}
+
+header p {
+    color: #999999;
 }
