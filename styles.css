@@ -70,7 +70,7 @@ body {
     animation-delay: 1.2s;
 }
 
-.button-page-acceil button {
+/* .button-page-acceil button {
     background-color: #333333;
     border-radius: 50px;
     border: none;
@@ -88,4 +88,29 @@ body {
 
 .button-page-acceil button:hover {
     transform: scale(1.1);
+} */
+
+.button-page-acceil .btn-link {
+    background-color: #333333;
+    border-radius: 50px;
+    border: none;
+    padding: 6px 12px;
+    color: #ffffff;
+    font-size: 20px;
+    width: 198px;
+    height: 50px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
 }
+  
+
+.button-page-acceil .btn-link:hover {
+    transform: scale(1.1);
+}
+  

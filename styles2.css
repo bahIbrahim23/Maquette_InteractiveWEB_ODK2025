@@ -11,7 +11,12 @@ body {
 
 
 /*Pour la page du cv*/
-
+@media(max-width){
+    .cv-container{
+        width: 100vw;
+        height: 100vh;
+    }
+}
 .cv-container {
     width: 21cm;
     height: 29.7cm;
@@ -29,12 +34,12 @@ body {
 
 .profile-photo {
     position: absolute;
-    width: 89.25px;
-    height: 111.54px;
-    left: 58px;
-    top: 131.1px;
+    width: 111px;
+    height: 111px;
+    left: 108px;
+    top: 82.1px;
     border: 4px solid #CECECE;
-    border-radius: 50px 50px 50px 0px;
+    border-radius: 85px 85px 85px 0px;
 }
 
 .triangle-deco-top {
@@ -104,6 +109,9 @@ body {
     top: 12px;
 }
 
+#linkedin-cv {
+    text-decoration: none;
+}
 
 .element-circle {
     width: 10px;
@@ -236,12 +244,6 @@ h3 {
     color: #959595;
 }
 
-/*.duree {
-    margin: 0;
-    font-size: 14px;
-    color: #f2ab01;
-    white-space: nowrap;
-}*/
 
 .duree {
     font-size: 12px;
@@ -634,20 +636,3 @@ header p {
 .cv-btn:hover {
     background-color: #3C3C3C;
 }
-
-/* Couleur alternative pour le thème */
-/* .alt-theme {
-    --primary-color: #007bff; /* exemple : bleu */
-/*
-}
-
-body {
-    background-color: var(--primary-color, white);
-}
-
-.title-underline,
-.icon-circle-big,
-.icon-circle-big-right {
-  background-color: var(--primary-color, #f2ab01);
-}
-*/
