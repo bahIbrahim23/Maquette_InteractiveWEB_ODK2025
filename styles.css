@@ -316,6 +316,13 @@ h3 {
     color: #959595;
 }
 
+/*.duree {
+    margin: 0;
+    font-size: 14px;
+    color: #f2ab01;
+    white-space: nowrap;
+}*/
+
 .duree {
     font-size: 12px;
     color: #959595;
@@ -383,8 +390,10 @@ h3 {
     top: 82px;
 }
 
+/*Pour la page de droite*/
 
-main {
+
+.right-column {
     flex: 1;
     position: relative;
 }
@@ -420,7 +429,7 @@ header {
     left: 30px;
 }
 
-.title-underline-profile {
+.title-underline-right {
     position: absolute;
     width: 14px;
     height: 72px;
@@ -439,4 +448,107 @@ header h1 {
 
 header p {
     color: #999999;
+}
+
+.element-align-for-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile {
+    position: absolute;
+    top: 210px;
+}
+
+.element-align-1-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px; /* pour aérer un peu avant le texte */
+}
+
+.title-underline-profile {
+    position: absolute;
+    width: 10px;
+    height: 35px;
+    background-color: #f2ab01;
+    border-radius: 50px;
+    left: -25.5px;
+}
+
+.icon-circle-big-right {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #f1aa00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon-circle-big-right i {
+    font-size: 15px;
+}
+
+
+/* Titre en texte (PROFIL) */
+#profile-desc {
+    color: #949494;
+    font-size: 15px;
+}
+
+.experiences {
+    position: absolute;
+    top: 331px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.element-align-1-experience {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.title-underline-experience {
+    position: absolute;
+    width: 10px;
+    height: 35px;
+    background-color: #f2ab01;
+    border-radius: 50px;
+    left: -25.5px;
+}
+
+
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.experience-title {
+    flex: 1; /* prend toute la place disponible entre le point et la date */
+    font-size: 15px;
+    color: #3C3C3C;
+}
+
+#bottom-7 {
+    position: absolute;
+    left: -26px;
+}
+
+#bottom-8 {
+    position: absolute;
+    left: -26px;
+}
+
+.skills {
+    position: absolute;
+    top: 584px;
 }
