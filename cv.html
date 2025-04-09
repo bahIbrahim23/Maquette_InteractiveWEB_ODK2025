@@ -6,7 +6,8 @@
     <title>CV - Ibrahim Bah</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="cv-container">
@@ -185,6 +186,11 @@
         </aside>
 
         <main class="right-column">
+            <div class="cv-buttons">
+                <a href="index.html" class="cv-btn">Accueil</a>
+                <button type="button" id="toggle-theme" class="cv-btn">Changer Couleur</button>
+                <button type="button" id="download-pdf" class="cv-btn">Télécharger PDF</button>
+            </div>
             <div id="profile-rectangle"></div>
             <div class="long-lign-right"></div>
             <div class="right-contanier">
@@ -225,8 +231,8 @@
                             <h3 class="experience-title"><strong>PROJET ACADÉMIQUE</strong></h3>
                             <p class="duree">2022 - 3 mois</p>
                         </div>
-                        <p>Faculté des Sciences de Bizerte / Tunisie</p>
-                        <p>
+                        <p class="text-color">Faculté des Sciences de Bizerte / Tunisie</p>
+                        <p class="text-color-p2">
                             Détection des dommages aux véhicules avec l'apprentissage
                             profond et la vision par ordinateur
                         </p>
@@ -237,8 +243,8 @@
                             <h3 class="experience-title"><strong>PROJET FREELANCE</strong></h3>
                             <p class="duree">2024 - 1 moi</p>
                         </div>
-                        <p>Analyse de données pour une pharmacie de Bamako</p>
-                        <p>
+                        <p class="text-color">Analyse de données pour une pharmacie de Bamako</p>
+                        <p class="text-color-p2">
                             Calcul des bénéfices par produit, identification des produits 
                             les plus rentables et les prix à faible, comparaison des prix 
                             d'achat pour trouver le fournisseur le plus avantageux, etc..
@@ -247,7 +253,8 @@
                 </section>
     
                 <section class="skills">
-                    <h2>
+                    <h2 class="element-align-skill">
+                        <div class="title-underline-experience"></div>
                         <span class="icon-circle-big-right">
                             <i class="fa-solid fa-screwdriver-wrench"></i>
                         </span>
@@ -255,67 +262,108 @@
                     </h2>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>Python</span>
+                        <div class="level-1">
+                            <div class="sub-level-1"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>HTML 5 / CSS</span>
+                        <div class="level-1">
+                            <div class="sub-level-1"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>JavaScript</span>
+                        <div class="level-2">
+                            <div class="sub-level-2"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>Sql</span>
+                        <div class="level-3">
+                            <div class="sub-level-3"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>Hive</span>
+                        <div class="level-4">
+                            <div class="sub-level-4"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>MongoDB</span>
+                        <div class="level-4">
+                            <div class="sub-level-4"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>Haddop</span>
+                        <div class="level-4">
+                            <div class="sub-level-4"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>Spark</span>
+                        <div class="level-4">
+                            <div class="sub-level-4"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>Pig</span>
+                        <div class="level-4">
+                            <div class="sub-level-4"></div>
+                        </div>
                     </div>
     
                     <div class="skill">
+                        <div class="element-circle bottom-9"></div>
                         <span>R</span>
+                        <div class="level-4">
+                            <div class="sub-level-4"></div>
+                        </div>
                     </div>
                 </section>
     
                 <section class="certification">
-                    <h2>
-                        <span>
+                    <h2 class="element-align-certification">
+                        <div class="title-underline-experience"></div>
+                        <span class="icon-circle-big-right">
                             <i class="fa-solid fa-certificate"></i>
                         </span>
                         <strong>CERTIFICATION</strong>
-                    </h2>
-    
+                    </h2>    
                     <div class="certif-item">
                         <div class="certif-title">
-                            <strong>ENGLISH TRAINING</strong>
-                            <span class="date">2022 - 2 mois</span>
+                            <div><strong>ENGLISH TRAINING</strong></div>
+                            <span class="duree">2022 - 2 mois</span>
                         </div>
     
                         <div class="certif-desc">
                             <p>Was Institute of English Language</p>
-                            <p>Accra - GHANA</p>
+                            <span>Accra - GHANA</span>
                         </div>
                     </div>
                 </section>
             </div>
+            <div class="triangle-deco-bottom-right"></div>
         </main>
     </div>
 </body>
